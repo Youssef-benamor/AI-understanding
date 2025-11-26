@@ -1,0 +1,69 @@
+Checkpoint: Prompt Crafting & Refinement
+
+1. Understanding the Basics
+
+A prompt is the instruction you give to an AI model. It specifies what you want, how you want it, and the context the AI must follow. Clear prompts are essential because AI does not guess missing information. Well-structured prompts help produce accurate, useful, and efficient results.
+
+---
+
+2. Initial Prompt Creation (Simple Example)
+
+Chosen task: Writing a short professional email.
+
+First attempt:
+“Write an email to my boss about finishing the project.”
+
+---
+
+3. Identifying Ambiguity
+
+This initial prompt is unclear for several reasons.
+It does not mention who the sender or recipient is.
+It does not explain which project was completed.
+The tone is not defined.
+No structure or length is specified.
+There are no details about results or next steps.
+Because of these missing elements, the AI may generate a vague or incorrect email.
+
+---
+
+4. Refined Prompt (Clear and Detailed)
+
+“Write a short, professional email to my boss, Mr. Karim, informing him that I completed the website redesign project today. Mention that all pages are responsive, the client reviewed the updates, and everything is ready for deployment. Keep the tone polite and confident, and end by asking if he needs anything else before launch.”
+
+**Why this version is better:**
+It clearly defines the task.
+It provides names and context.
+The tone is specified.
+The length is controlled.
+The message has a clear purpose and structure.
+
+---
+
+5. Iteration and Testing
+
+AI Output:
+The email is correct but the tone is a little too formal.
+
+**Second refinement:**
+“Rewrite the email in a friendlier but still professional tone. Keep the message concise and avoid overly formal expressions.”
+
+This updated version produces a more suitable result.
+This demonstrates how iteration improves the final output.
+
+---
+
+6. Experimenting With Tone and Style
+
+The same refined prompt can be adjusted to test different tones:
+
+Friendly tone:
+“Write the email in a warm and friendly tone.”
+
+Formal tone:
+“Write the email in a very formal and polished business tone.”
+
+Casual tone:
+“Write the email in a light, casual tone while remaining respectful.”
+
+Exploring multiple tones helps you understand how phrasing changes the AI’s writing style.
