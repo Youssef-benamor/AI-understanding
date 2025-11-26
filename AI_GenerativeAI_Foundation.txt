@@ -1,0 +1,32 @@
+is AI? 
+
+Artificial Intelligence is a field of computer science focused on creating systems capable of performing tasks that normally require human intelligence.
+These tasks include learning from data, recognizing patterns, solving problems, making decisions, and understanding language.
+ Its purpose is to simulate human-like reasoning and automate complex cognitive processes.
+
+---
+
+How Generative AI Works 
+
+Generative AI works by learning patterns from massive datasets and building statistical models of how information is structured.
+ Once trained, the model uses this knowledge to generate new content—such as text, images, audio, or video—by predicting what should come next based on learned relationships.
+It operates through iterative sampling, adjusting each output step-by-step to produce coherent, realistic, and context-aware results.
+This allows it to create content that resembles human creativity while relying strictly on learned patterns.
+
+---
+
+Popular Generative AI Models
+
+Popular Generative AI models include Large Language Models like OpenAI’s GPT-3, GPT-4, and GPT-5, known for generating and understanding text.
+Image models such as DALL-E and Stable Diffusion create visuals from descriptions.
+Other notable models include Midjourney for artistic images and Google’s Gemini models for multimodal generation.
+
+---
+
+Limitations of Generative AI 
+
+Generative AI still faces several limitations.
+ It can inherit and amplify biases found in its training data, leading to unfair or inaccurate outputs.
+Models may also produce “hallucinations,” inventing facts or details that are incorrect.
+Their creativity is limited to recombining learned patterns rather than producing true original thought.
+Ethical concerns include misinformation, deepfakes, and misuse. Additionally, training and running these models require significant computational resources, making development energy-intensive and expensive.
