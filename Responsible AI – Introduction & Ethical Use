@@ -1,0 +1,124 @@
+
+Checkpoint: Responsible AI – Introduction & Ethical Use
+
+---
+
+1. Micro-Lecture: “Introduction to Responsible AI” – Summary 
+
+After watching the micro-lecture, I learned the core pillars of responsible AI:
+
+-Fairness
+
+AI systems can unintentionally discriminate if the data they were trained on contains bias. For example, an AI that recommends job candidates may favor one gender or nationality simply because the training data was unbalanced.
+
+Accountability
+
+Humans must remain responsible for checking and validating AI outputs. AI is a tool — not a final decision-maker. If something goes wrong, we cannot blame the model alone.
+
+-Transparency
+
+We must clearly communicate when AI is being used. People should understand what data the AI relies on and how its outputs influence decisions.
+
+-Key risks I noted:
+
+* AI bias leading to unfair recommendations
+* Data breaches caused by inputting sensitive information into online tools
+* Over-reliance on AI without human review
+
+This gave me a strong foundation for understanding how AI should and should not be used in professional environments.
+
+---
+
+2. Reading: Company Policy on AI Usage – Key Takeaways
+
+After reviewing the internal AI policy (hypothetical, since the link wasn’t provided), here is what I understood:
+
+✔ Data Handling
+
+* Never input confidential information (client data, credentials, internal documents).
+* Remove names, emails, phone numbers, and identifiers before using AI tools.
+
+✔ Intellectual Property
+
+* AI-generated text or code must be reviewed before using it in real products.
+* Some outputs may not be eligible for copyright unless significantly edited by a human.
+
+✔ Acceptable Usage
+
+* Allowed: brainstorming, summaries, explanations, documentation, debugging.
+* Not allowed: generating harmful, offensive, or discriminatory content.
+* Must follow company security standards at all times.
+
+✔ Security Requirements
+
+* Use approved AI platforms only.
+* Do not upload files that contain sensitive business data.
+* Always verify outputs before sharing.
+
+This ensures AI is used safely, legally, and responsibly.
+
+---
+
+3. Identify & Mitigate Bias – My Examples
+
+Example 1: AI Recruiting Tool
+
+Potential Bias:
+The AI selects more male candidates than female candidates because the dataset is historically male-dominant.
+
+Mitigation:
+
+* Use balanced datasets
+* Include fairness constraints
+* Have a human review final candidate selections
+
+---
+
+Example 2: Customer Support Chatbot
+
+Potential Bias:
+The AI responds more politely to certain languages or writing styles.
+
+Mitigation:
+
+* Train with diverse, multilingual data
+* Test with different user profiles
+* Add rules ensuring consistent tone
+
+---
+
+Example 3: Image Generator
+
+Potential Bias:
+When generating images of a “CEO,” the output is mostly older men.
+
+Mitigation:
+
+* Adjust prompts (e.g., gender-neutral wording)
+* Use models trained with diverse image datasets
+* Manually validate outputs
+
+This step helps ensure AI behaves fairly across different contexts.
+
+---
+
+4. Review: “AI and Data Privacy – What Your Company Needs to Know” 
+
+Here are the key lessons from the reading:
+
+How to Protect Data When Using AI
+
+* Never paste sensitive data such as IDs, passwords, or customer information.
+* Replace real data with examples or placeholders.
+* Use anonymization — remove anything that can identify a person.
+
+Best Practices:
+
+* Think before sharing: “Would this violate confidentiality if someone else saw it?”
+* Do not trust AI tools with private business information.
+* Follow internal security rules (VPN, approved services, etc.).
+* Double-check AI outputs to avoid exposing confidential details.
+
+This helps prevent data leaks and protects company reputation.
+
+
