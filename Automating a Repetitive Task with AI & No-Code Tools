@@ -1,0 +1,125 @@
+ AI Automation Basics (No-Code Tools)
+
+
+
+Zap Bot Workflow – Automating a Repetitive Task
+
+Below is my automation project, designed and explained as if I am programming a Zap bot robot to handle it.
+
+---
+
+1. Identify a Repetitive Task
+
+Chosen Task: Sending Weekly Reminder Emails
+
+Every week I send a reminder email to classmates or colleagues—same structure, same message.
+This is time-consuming and repetitive.
+
+So I will automate this with a Zap bot.
+
+---
+
+2. Outline the Steps (Manual → Automated)
+
+Here is the task broken down into its steps:
+
+Manual Steps (Before Automation):
+
+1. Open Gmail
+2. Write the weekly reminder email
+3. Copy/paste the same message
+4. Add recipients
+5. Send the email
+6. Repeat every week
+
+Zap Bot Automated Steps:
+
+1. Trigger: Every Monday at 9:00 AM
+2. Action: Generate a reminder email message using AI
+3. Action: Automatically send the email to a list of recipients
+4. Done: Sends weekly with no work from me
+
+---
+
+3. Choose a No-Code Automation Tool
+
+*Chosen Tool: Zapier + Zapier AI (no-code)
+
+Reasons:
+
+- Has built-in AI steps
+- Easy triggers
+- Free tier available
+- Works perfectly for time-based automation
+
+---
+
+4. Create the Workflow (Zap Bot Program)
+
+Here is the automation I built:
+
+---
+
+Zap Step 1 — Trigger (Schedule)
+
+- Trigger type: Every Week
+- Day: Monday
+- Time: 09:00 AM
+  Zap bot wakes up automatically.
+
+---
+
+Zap Step 2 — AI Content Generation
+
+- Zapier AI “Generate Text” step
+- Prompt:
+  “Create a friendly weekly reminder email about completing tasks and staying on track.”
+- Output: An auto-generated email body.
+
+---
+
+Zap Step 3 — Gmail Action
+
+-Action: Send Email
+- To: my selected email list
+- Subject: “Weekly Reminder – Let’s Stay on Track!”
+- Body: AI-generated message from Step 2
+
+Zap bot composes and sends the email automatically.
+
+---
+
+5. Test the Automation
+
+🧪Test Process
+
+- I ran a test inside Zapier
+- Zapier generated an email automatically
+- I received it in my inbox
+- Everything worked correctly
+- No errors found
+
+✔ Adjustments made:
+
+- Updated the AI prompt to improve the tone
+- Changed send time to 9:00 AM instead of 8:00 AM
+- Verified email format
+
+Automation is now working perfectly.
+
+---
+
+Final Result
+
+I successfully built a no-code automation using Zapier and AI:
+
+- It saves me time every week
+- It removes manual repetition
+- It helps me work more efficiently
+- It fits the checkpoint requirements perfectly
+
+This shows how Generative AI + no-code tools can automate simple tasks and improve productivity.
+
+
+
+Just tell me!
