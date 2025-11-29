@@ -1,0 +1,104 @@
+1. Tool Selection
+
+
+
+
+​Selected Tool: Google Sheets (utilizing the built-in Explore feature).
+
+
+​Reason: Accessible, no-code, and powerful AI capabilities for analysis and visualization.
+
+
+
+
+​2. Data Import
+
+
+
+
+​Action: Copy and paste the messy dataset into a new Google Sheet.
+
+
+​Requirement: Ensure the data includes clear headers.
+
+
+
+
+​3. Clean Messy Data with AI
+
+
+​I will focus on the AI suggestions provided by the "Explore" tool.
+
+
+
+
+​Click the Explore button (bottom right).
+
+
+
+​Look for and apply suggested actions in the "Clean up data" panel to fix:
+
+
+
+​Inconsistent text formatting (e.g., standardizing text entries).
+
+
+​Removing leading/trailing spaces (TRIM()).
+
+
+​Addressing missing values or data type errors.
+
+
+
+
+
+
+
+
+​4. Spot Patterns and Trends
+
+
+​I will leverage the AI for automatic discovery.
+
+
+
+
+​In the Explore pane, review the Automated Insights for quick metrics (averages, sums) and correlation suggestions.
+
+
+
+​Use the Natural Language Query box to ask focused questions:
+
+
+
+​Example Query: "Show me the top 5 products by revenue."
+
+
+​Example Query: "What is the sales average per customer segment?"
+
+
+
+
+
+
+
+
+​5. Generate Easy-to-Understand Charts
+
+
+​I will select the visualization suggested by the AI that best communicates the identified pattern.
+
+
+
+
+​Scroll through the Suggested Charts in the Explore pane.
+
+
+​Select: Choose the most appropriate chart type (e.g., a Line Chart for trends, a Bar Chart for comparisons).
+
+
+​Customize: Edit the chart title and axis labels directly for maximum clarity and impact, ensuring the visualization tells a simple, understandable story.
+
+
+
+
