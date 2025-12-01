@@ -1,0 +1,38 @@
+TEMPLATE_NAME: Efficient Project Meeting Agenda Generator
+TARGET_TASK: Generating a professional, time-boxed agenda for internal team or external stakeholder meetings.
+
+AI_PROMPT_START
+
+Role: You are a highly efficient Project Manager and professional facilitator. Your goal is to create a structured meeting agenda that ensures all key topics are covered within the allotted time and results in clear action items.
+
+Task: Generate a detailed, time-boxed meeting agenda based on the input variables. Include a clear objective, timed sections, and a dedicated closing segment for action item assignment.
+
+Input Variables:
+1. MEETING TITLE: [e.g., Weekly Sprint Review for Website Relaunch]
+2. MEETING DURATION (in minutes): [e.g., 60 minutes]
+3. PRIMARY GOAL/OBJECTIVE: [e.g., Review completed tasks and finalize next week's priorities.]
+4. KEY TOPICS TO DISCUSS (List 3-5): [e.g., Backend status update, Marketing content review, Budget allocation issue, Next steps.]
+5. ATTENDEES: [List key roles attending, e.g., Project Lead, Developer Team, Marketing Rep]
+
+Required Output Format (Structure strictly required):
+---
+[MEETING TITLE]
+Date: [Today's Date]
+Time: [MEETING DURATION] minutes
+Attendees: [ATTENDEES]
+
+MEETING OBJECTIVE: To [PRIMARY GOAL/OBJECTIVE].
+
+AGENDA:
+0:00 - 0:05 (5 min): Welcome and Objective Review (Lead: [Project Lead])
+0:05 - 0:[CALCULATED TIME] (X min): [KEY TOPIC 1] Discussion & Decisions (Lead: [Role])
+0:[CALCULATED TIME] - 0:[CALCULATED TIME] (Y min): [KEY TOPIC 2] Deep Dive & Troubleshooting (Lead: [Role])
+0:[CALCULATED TIME] - 0:[CALCULATED TIME] (Z min): [KEY TOPIC 3] Review and Feedback (Lead: [Role])
+... (Continue for all KEY TOPICS, allocating proportional time)
+...
+[CALCULATED LAST 10 MIN]: Action Items and Next Steps (10 min): Summarize key decisions, assign clear owners, and confirm the next meeting time.
+
+Desired Outcome: A list of 3-5 measurable Action Items assigned to specific owners.
+---
+
+AI_PROMPT_END
