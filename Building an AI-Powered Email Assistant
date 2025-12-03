@@ -1,0 +1,120 @@
+Goal: To establish a fully automated, no-code workflow for managing a repetitive professional email task using generative AI for drafting and task logging.
+
+Inferred Grade Level: This task is appropriate for an introductory/intermediate course on AI/No-Code Automation, likely at the university or professional development level, focusing on practical application.
+
+1. Identify Core Email Workflow
+
+Repetitive Task Chosen: Automated follow-up on unresponded Meeting Requests.
+
+Scenario: When I send a meeting request and the recipient hasn't responded (neither accepted nor declined) within 48 hours, the AI assistant will draft a polite follow-up, and log a task for manual review in case the automation fails.
+
+2. Choose Your No-Code Automation Tool
+
+Tool Selected: Make (formerly Integromat).
+
+Justification: Make provides excellent visual mapping for complex, multi-step scenarios, including native integration for both Google Workspace and the Gemini API, which is ideal for this project.
+
+3. Integrate Email Service
+
+Service: Gmail
+
+Configuration in Make:
+
+Trigger Module: Gmail: Watch Emails
+
+Trigger Setup:
+
+Folder/Label: I created a custom Gmail filter that applies the label AwaitingResponse/MeetingInvite to all emails where I am the sender, the subject contains "Meeting Request," and the email has not been replied to.
+
+Criteria: The Make scenario runs every 2 hours, checking for emails with the AwaitingResponse/MeetingInvite label that are older than 48 hours.
+
+4. Integrate AI Service
+
+Service: Google Gemini API (using the gemini-2.5-flash model)
+
+Configuration in Make:
+
+Module: Google Gemini AI: Generate a Response
+
+Connection: Authenticated using a previously obtained Gemini API Key.
+
+Function: This module sits between the trigger and the final email action, dynamically creating the follow-up text.
+
+5. Set Up Triggers and Actions (The Scenario Blueprint)
+
+The complete automation runs as a three-step scenario:
+
+Step A: Trigger - Identify Stale Email
+
+Module: Gmail: Watch Emails
+
+Trigger: New email found in the AwaitingResponse/MeetingInvite folder, older than 48 hours.
+
+Step B: Drafting Action - AI Generates Follow-Up
+
+Module: Google Gemini AI: Generate a Response
+
+Prompt (The Brain):
+
+System Instruction: "You are a polite, professional, and concise executive assistant. Your task is to draft a follow-up email reminder. The tone should be friendly, focusing on gently confirming the meeting time or asking if the recipient needs a reschedule, keeping it under 75 words."
+
+User Query (Dynamic Input): "Please draft the body of a follow-up email. The original subject was: [Map: Subject of the email from Step A]. The original recipient was: [Map: Recipient Email Address from Step A]. Start the email directly without a salutation (the automation will add it)."
+
+Output Mapping: The generated text output is stored in a variable (AI_Draft_Text).
+
+Step C: Follow-Up Action (Automation)
+
+Module: Gmail: Create a Draft (Chosen over Send to ensure human review before final sending)
+
+Configuration:
+
+Recipient: [Map: Recipient Email Address from Step A]
+
+Subject: RE: [Map: Subject of the email from Step A] (Prepended with RE:)
+
+Body: Concatenate the salutation and the AI-generated text:
+
+Hi [Map: Recipient Name/First Name from Step A],
+
+[Map: AI_Draft_Text]
+
+Thanks,
+[My Name]
+
+Final Action: Applies a new label: AI/Draft-Ready for quick manual review in Gmail.
+
+Step D: Task Logging Action
+
+Module: Google Tasks: Create a Task
+
+Justification: This ensures no critical follow-up is missed, even if the draft is overlooked.
+
+Configuration:
+
+Task List: "Pending Follow-Ups"
+
+Title: Review AI Draft for [Map: Recipient Email Address] - Meeting Follow-up
+
+Notes: Link to the original email for context.
+
+Due Date: Set to 24 hours after the task is created.
+
+6. Test and Refine
+
+Testing Process:
+
+Sent a test meeting invitation to a secondary email address.
+
+Applied the AwaitingResponse/MeetingInvite label manually (simulating the filter).
+
+Waited 48 hours (simulated by manually running the scenario after adjusting the time criteria).
+
+Result 1 (Drafting): The scenario successfully triggered the Gemini module, which provided a concise, professional, and friendly follow-up draft.
+
+Result 2 (Follow-Up): A new draft appeared in my Gmail, correctly addressed, with the subject line updated, and tagged with AI/Draft-Ready.
+
+Result 3 (Logging): A corresponding task was created in my Google Tasks list, ensuring the required manual review.
+
+Refinement: The initial prompt was refined to explicitly request the model to be under 75 words and to omit the salutation, ensuring a seamless integration with the pre-built email template in the final Gmail module.
+
+Conclusion: The completed automation successfully identifies stale emails, utilizes the Gemini API for highly personalized, context-aware drafting, and integrates task management, achieving the goal of building an intelligent, no-code AI Email Assistant.
