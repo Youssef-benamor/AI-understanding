@@ -1,0 +1,80 @@
+1. What I’m Aiming For
+
+For this checkpoint, what I’m aiming for is to develop my troubleshooting skills when working with generative AI.
+Sometimes AI gives answers that feel incomplete, vague, or simply not what I meant, so my goal here is to understand how to analyze those weak outputs and refine my prompts step by step.
+I want to learn how to use clarity, constraints, and better context to guide the AI toward much stronger results.
+By the end, I want to be more confident not only in improving the AI’s responses but also in documenting my best prompts so I can reuse them in future tasks.
+
+---
+
+## **2. The “Bad Output” (Original AI Response I Received)**
+
+**My prompt:**
+*“Explain my product Aura Filter.”*
+
+**AI’s bad output (summarized):**
+The AI gave me a very short and generic description. It didn’t explain what the product does, didn’t mention the aura visuals, and didn’t show any creativity.
+It felt like the AI didn’t understand the context of my project or the purpose of the product.
+It was too vague and didn’t sound like something I could use in a presentation.
+
+**What was wrong:**
+
+* Too short
+* Missing key information
+* No target audience
+* No explanation of how it works
+* No marketing tone
+
+---
+
+3. My Improved Prompt (Refined Iteration)
+
+Based on the mistakes, I wrote a better, more specific prompt:
+
+  Improved Prompt:
+“Explain my product called Aura Filter in a clear, creative marketing tone. Describe what the product does, how it works, and who it is made for.
+Aura Filter transforms photos into glowing aura-style images. Keep it detailed, engaging, and suitable for a product presentation.”*
+
+  Why this improved prompt is better:
+
+- It gives **context** (what the product actually is)
+- It sets a **tone** (creative marketing)
+- It adds **structure** (what, how, who)
+- It adds a "use-case" (product presentation)
+
+---
+
+4. Improved Output (New AI Response)**
+
+**AI’s improved output:**
+“Aura Filter is an AI-powered creative tool that transforms regular photos into glowing, aura-inspired artworks.
+It analyzes the subject in the image, identifies edges, colors, and atmosphere, and then enhances it with vibrant glow effects such as neon, warm gold, cosmic tones, or soft pastel energy.
+It’s designed for content creators, designers, and anyone who wants visually striking images without any editing skills.
+Aura Filter makes it simple to generate artistic, eye-catching visuals that are perfect for social media, personal branding, and creative projects.”
+
+  Why this is better:
+
+* Clear explanation
+* More detail
+* Matches the product
+* Sounds like marketing
+* Useful for my campaign
+
+---
+
+5. Documentation — What I Learned & Best Practices**
+
+From this task, I learned how important it is to be specific with AI.
+The first weak output happened because my original prompt had almost no context, no structure, and no direction.
+Once I added details about the product, the intended tone, and what sections I needed, the AI gave a much stronger and more useful response.
+
+    My best practices I’m documenting for future prompts:
+
+- Always include "context" so the AI knows what I’m talking about
+- Add **constraints** like tone, length, or sections
+- Use "examples" when possible
+- If the first output is weak, iterate instead of starting over
+- Save strong prompts so I can reuse them in future work
+
+This simple iterative process helped me turn a bad output into a clean, presentation-ready description.
+
